@@ -92,6 +92,7 @@ header .white .logo{
     line-height: 32px;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 header .white .logo a:visited{
@@ -113,6 +114,7 @@ header .white .mid .other{
     color: #737373;
     font-size: 14px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 header .white .mid .shop{
@@ -120,6 +122,7 @@ header .white .mid .shop{
     color: #252B42;
     font-size: 14px;
     line-height: 24px;
+    cursor: pointer;
 }
 
 header .white .side{
@@ -133,10 +136,12 @@ header .white .side .man a{
     justify-content: space-between;
     align-items: center;
     color: #23A6F0;
+    cursor: pointer;
 }
 
 header .white .side .man a p{
     margin-left: 4px;
+    cursor: pointer;
 }
 
 .path{
@@ -156,6 +161,7 @@ header .white .side .man a p{
 
 .path .dahome{
     color: #252B42;
+    cursor: pointer;
 }
 
 .display{
@@ -173,6 +179,7 @@ header .white .side .man a p{
 
 .display .leftbot img{
     padding-right: 7px;
+    cursor: pointer;
 }
 
 .display .right{
@@ -255,6 +262,7 @@ header .white .side .man a p{
 
 .display .right .color{
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .display .right .color img{
@@ -274,6 +282,7 @@ header .white .side .man a p{
     border: none;
     color: #FFFFFF;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .display .right .opt .b2{
@@ -287,6 +296,7 @@ header .white .side .man a p{
     justify-content: center;
     align-items: center;
     margin-right: 5px;
+    cursor: pointer;
 }
 
 .more{
