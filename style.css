@@ -27,6 +27,7 @@ header{
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    z-index: 100;
 }
 
 header .green{
@@ -321,6 +322,7 @@ header .white .side .man a p{
 }
 
 .more .stuff{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -382,3 +384,240 @@ header .white .side .man a p{
     margin-bottom: 10px;
     color: #23856D;
 }
+
+@media (max-width: 1440px) {
+    .more {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .more .title {
+        font-size: 22px;
+    }
+}
+
+/* Medium Desktops (1024px to 1440px) */
+@media (max-width: 1024px) {
+    .more {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .display .right .desc .yap {
+        padding-right: 80px;
+    }
+
+    .more .stuff .ro {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .more .stuff .blok {
+        margin-right: 20px;
+        width: 200px;
+        height: auto;
+    }
+}
+
+/* Tablets (768px to 1024px) */
+@media (max-width: 768px) {
+    .display .right .desc .price {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .display .right .desc .stock {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    .display .right .desc .stock .is {
+        padding-left: 0;
+    }
+
+    .display .right .desc .yap {
+        padding-right: 50px;
+        font-size: 12px;
+    }
+
+    .display .right .opt .b1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .more {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .more .title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .more .stuff .ro {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more .stuff .blok {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Devices (480px to 768px) */
+@media (max-width: 480px) {
+    .display .right .desc .price {
+        font-size: 16px;
+    }
+
+    .display .right .desc .stock {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    .display .right .opt .b1 {
+        width: 100%;
+    }
+
+    .more {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .more .stuff .blok {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Very Small Screens (320px to 480px) */
+@media (max-width: 320px) {
+    .display .right .desc .price {
+        font-size: 14px;
+    }
+
+    .display .right .desc .stock {
+        font-size: 10px;
+    }
+
+    .display .right .desc .yap {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .more .title {
+        font-size: 16px;
+    }
+
+    .more .stuff .blok {
+        width: 100%;
+    }
+}
+
+/*@media (max-width: 1200px) {
+    header .white {
+        padding: 25px 100px;
+    }
+
+    .path, .display, .more {
+        padding: 25px 100px;
+    }
+}*/
+
+@media (max-width: 992px) {
+    header .white {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px 50px;
+    }
+
+    .path, .display, .more {
+        padding: 15px 50px;
+    }
+
+    .display {
+        flex-direction: column;
+    }
+
+    .display .right {
+        padding-left: 0;
+    }
+    header .green{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header .green {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    header .white {
+        padding: 10px 20px;
+    }
+
+    .path, .display, .more {
+        padding: 10px 20px;
+    }
+    header .white .mid,
+    header .white .side{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    header .green, header .white {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header .white {
+        padding: 10px;
+    }
+
+    .path, .display, .more {
+        padding: 10px;
+    }
+
+    .display {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .more .stuff .ro {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    header .green {
+        padding: 5px;
+    }
+
+    header .white {
+        padding: 5px;
+    }
+
+    .path, .display, .more {
+        padding: 5px;
+    }
+
+    .display .right {
+        padding-left: 0;
+    }
+
+    .more .stuff .ro {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
